@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "KituraRateLimit",
     dependencies: [
-       .Package(url: "https://github.com/IBM-Swift/Kitura.git", majorVersion: 2, minor: 9),
-       .Package(url: "https://github.com/IBM-Swift/Kitura-Cache", majorVersion: 2, minor: 0),
+       .Package(url: "https://github.com/IBM-Swift/Kitura.git", from: "2.9.1"),
+       .Package(url: "https://github.com/IBM-Swift/Kitura-Cache", from: "2.0.2"),
    ],
    exclude: ["Example"])
